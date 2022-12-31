@@ -10,14 +10,14 @@ import Foundation
 extension String {
 
     /// Generates a random lower case letter.
-    static func randomLowerCaseLetter() -> String {
+    public static func randomLowerCaseLetter() -> String {
 
         let base = "abcdefghijklmnopqrstuvwxyz"
         return String(base.randomElement()!)
     }
     
     /// Generates a random upper case letter.
-    static func randomUpperCaseLetter() -> String {
+    public static func randomUpperCaseLetter() -> String {
         let base = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
         return String(base.randomElement()!)
     }
